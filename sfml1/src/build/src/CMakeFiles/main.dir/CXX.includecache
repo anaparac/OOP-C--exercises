@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ana/objektno/sfml1-anaparac/src/game.cpp
+game.h
+/home/ana/objektno/sfml1-anaparac/src/game.h
+
+/home/ana/objektno/sfml1-anaparac/src/game.h
+SFML/Graphics.hpp
+-
+
+/home/ana/objektno/sfml1-anaparac/src/main.cpp
+game.h
+/home/ana/objektno/sfml1-anaparac/src/game.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=c++11   CMakeFiles/test_zad.dir/test-zad.cpp.o  -o test_zad -rdynamic ../libgoogletest.a -lpthread 

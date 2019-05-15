@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ana/Objektno C++/vect-anaparac/src/main.cpp
+vect.h
+/home/ana/Objektno C++/vect-anaparac/src/vect.h
+
+/home/ana/Objektno C++/vect-anaparac/src/vect.h
+iostream
+-
+string
+-
+iterator
+-
+vect_impl.h
+/home/ana/Objektno C++/vect-anaparac/src/vect_impl.h
+
+/home/ana/Objektno C++/vect-anaparac/src/vect_impl.h
+memory
+-
+iterator
+-
+stdexcept
+-
+cmath
+-
+

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="stl2" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="googletest">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/libgoogletest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 googletest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="googletest/fast">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/libgoogletest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 googletest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stl_lib">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/src/libstl_lib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 stl_lib" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stl_lib/fast">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/src/libstl_lib.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 stl_lib/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stl">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/src/stl" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 stl" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stl/fast">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/src/stl" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 stl/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_zad">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/test/test_zad" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_zad" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_zad/fast">
+         <Option output="/home/ana/Objektno C++/stl2-anaparac/src/build/test/test_zad" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/Objektno C++/stl2-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/Objektno C++/stl2-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_zad/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/Objektno\ C++/stl2-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/src/main.cpp">
+         <Option target="stl"/>
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/src/zadatak.cpp">
+         <Option target="stl_lib"/>
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/src/zadatak.h">
+         <Option target="stl_lib"/>
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/test/test-zad.cpp">
+         <Option target="test_zad"/>
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/ana/Objektno C++/stl2-anaparac/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

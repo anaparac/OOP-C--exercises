@@ -1,0 +1,13 @@
+/home/ana/objektno/bst-anaparac/src/build/CMakeFiles/edit_cache.dir
+/home/ana/objektno/bst-anaparac/src/build/CMakeFiles/rebuild_cache.dir
+/home/ana/objektno/bst-anaparac/src/build/CMakeFiles/test.dir
+/home/ana/objektno/bst-anaparac/src/build/CMakeFiles/googletest.dir
+/home/ana/objektno/bst-anaparac/src/build/src/CMakeFiles/test.dir
+/home/ana/objektno/bst-anaparac/src/build/src/CMakeFiles/edit_cache.dir
+/home/ana/objektno/bst-anaparac/src/build/src/CMakeFiles/rebuild_cache.dir
+/home/ana/objektno/bst-anaparac/src/build/src/CMakeFiles/bst.dir
+/home/ana/objektno/bst-anaparac/src/build/test/CMakeFiles/test.dir
+/home/ana/objektno/bst-anaparac/src/build/test/CMakeFiles/test_zad.dir
+/home/ana/objektno/bst-anaparac/src/build/test/CMakeFiles/test_remove.dir
+/home/ana/objektno/bst-anaparac/src/build/test/CMakeFiles/rebuild_cache.dir
+/home/ana/objektno/bst-anaparac/src/build/test/CMakeFiles/edit_cache.dir

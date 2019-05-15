@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=c++11   CMakeFiles/vect.dir/main.cpp.o  -o vect -rdynamic 

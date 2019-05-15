@@ -1,0 +1,32 @@
+Start testing: Mar 25 01:34 CET
+----------------------------------------------------------
+1/1 Testing: test_zad
+1/1 Test: test_zad
+Command: "/home/ana/Objektno C++/stl1-anaparac/src/test/test_zad"
+Directory: /home/ana/Objektno C++/stl1-anaparac/src/test
+"test_zad" start time: Mar 25 01:34 CET
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from STL
+[ RUN      ] STL.Zadatak1
+[       OK ] STL.Zadatak1 (0 ms)
+[ RUN      ] STL.Zadatak2
+[       OK ] STL.Zadatak2 (1 ms)
+[ RUN      ] STL.Zadatak3
+[       OK ] STL.Zadatak3 (110 ms)
+[----------] 3 tests from STL (111 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (111 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"test_zad" end time: Mar 25 01:34 CET
+"test_zad" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 25 01:34 CET

@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -std=c++11   CMakeFiles/test_remove.dir/test-remove.cpp.o  -o test_remove -rdynamic ../libgoogletest.a -lpthread 

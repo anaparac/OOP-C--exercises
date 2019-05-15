@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ana/objektno/bst-anaparac/src/bin_stablo.h
+bin_stablo_impl.h
+/home/ana/objektno/bst-anaparac/src/bin_stablo_impl.h
+
+/home/ana/objektno/bst-anaparac/src/bin_stablo_impl.h
+
+/home/ana/objektno/bst-anaparac/src/main.cpp
+iostream
+-
+bin_stablo.h
+/home/ana/objektno/bst-anaparac/src/bin_stablo.h
+

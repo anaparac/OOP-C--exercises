@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ana/Objektno C++/stl1-anaparac/src/main.cpp
+zadatak.h
+/home/ana/Objektno C++/stl1-anaparac/src/zadatak.h
+iostream
+-
+list
+-
+vector
+-
+
+/home/ana/Objektno C++/stl1-anaparac/src/zadatak.h
+vector
+-
+string
+-
+list
+-
+

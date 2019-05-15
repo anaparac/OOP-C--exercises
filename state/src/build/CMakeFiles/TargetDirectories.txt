@@ -1,0 +1,7 @@
+/home/ana/objektno/state-anaparac/src/build/CMakeFiles/test.dir
+/home/ana/objektno/state-anaparac/src/build/CMakeFiles/edit_cache.dir
+/home/ana/objektno/state-anaparac/src/build/CMakeFiles/rebuild_cache.dir
+/home/ana/objektno/state-anaparac/src/build/src/CMakeFiles/test.dir
+/home/ana/objektno/state-anaparac/src/build/src/CMakeFiles/rebuild_cache.dir
+/home/ana/objektno/state-anaparac/src/build/src/CMakeFiles/edit_cache.dir
+/home/ana/objektno/state-anaparac/src/build/src/CMakeFiles/main.dir

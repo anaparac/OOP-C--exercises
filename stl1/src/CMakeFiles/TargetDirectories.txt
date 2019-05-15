@@ -1,0 +1,13 @@
+/home/ana/Objektno C++/stl1-anaparac/src/CMakeFiles/edit_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/CMakeFiles/rebuild_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/CMakeFiles/test.dir
+/home/ana/Objektno C++/stl1-anaparac/src/CMakeFiles/googletest.dir
+/home/ana/Objektno C++/stl1-anaparac/src/src/CMakeFiles/test.dir
+/home/ana/Objektno C++/stl1-anaparac/src/src/CMakeFiles/stl_lib.dir
+/home/ana/Objektno C++/stl1-anaparac/src/src/CMakeFiles/stl.dir
+/home/ana/Objektno C++/stl1-anaparac/src/src/CMakeFiles/edit_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/src/CMakeFiles/rebuild_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/test/CMakeFiles/test.dir
+/home/ana/Objektno C++/stl1-anaparac/src/test/CMakeFiles/edit_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/test/CMakeFiles/rebuild_cache.dir
+/home/ana/Objektno C++/stl1-anaparac/src/test/CMakeFiles/test_zad.dir

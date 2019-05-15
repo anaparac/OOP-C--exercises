@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="bst" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test">
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 test" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="googletest">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/libgoogletest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 googletest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="googletest/fast">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/libgoogletest.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 googletest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bst">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/src/bst" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 bst" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="bst/fast">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/src/bst" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/src" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 bst/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/src/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_zad">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/test/test_zad" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_zad" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_zad/fast">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/test/test_zad" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_zad/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_remove">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/test/test_remove" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_remove" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="test_remove/fast">
+         <Option output="/home/ana/objektno/bst-anaparac/src/build/test/test_remove" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ana/objektno/bst-anaparac/src/build/test" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest" />
+            <Add directory="/home/ana/objektno/bst-anaparac/external/googletest/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 test_remove/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ana/objektno/bst-anaparac/src/build/test/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ana/objektno/bst-anaparac/src/bin_stablo.h">
+         <Option target="bst"/>
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/src/bin_stablo_impl.h">
+         <Option target="bst"/>
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/src/main.cpp">
+         <Option target="bst"/>
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/test/test-remove.cpp">
+         <Option target="test_remove"/>
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/test/test-zad.cpp">
+         <Option target="test_zad"/>
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/ana/objektno/bst-anaparac/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\test\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
